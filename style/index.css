@@ -1,0 +1,166 @@
+
+body {
+    margin: 20px;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.06);
+    font-family: "Work Sans", sans-serif;
+}
+
+.head {
+    text-align: center;
+}
+
+.vs {
+    font-size: 24px;
+    color: blue;
+}
+
+.little {
+    font-size: 18px;
+    color: tomato;
+}
+
+b {
+    color: fuchsia;
+}
+
+h4 {
+    color: darkblue;
+}
+
+.section {
+    background: #fff;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.06);
+    padding: 20px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.p {
+    text-align: center;
+}
+
+span {
+    color: blue;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    color: aqua;
+}
+
+/* Style for the table */
+.blog_table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+/* Style for table headers */
+.blog_table th {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for table cells */
+.blog_table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+/* Style for table rows */
+.blog_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style for table caption */
+.blog_table caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #1e1d1d;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.06);
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h3 {
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+}
+
+.socials li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.socials a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.socials a:hover i {
+    color: aqua;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    background: #000;
+    width: 15em;
+    margin: 0 auto;
+    padding: 0 10px;
+    border-radius: 4px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .section {
+        padding: 15px;
+    }
+
+    .footer-content p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section {
+        padding: 10px;
+    }
+
+    .footer-content p {
+        font-size: 10px;
+    }
+}
+
+
+
